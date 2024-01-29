@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+* {
+    font-family: 'Nanum Gothic';
+}
+
+h1 {
+    font-family: 'Hanna';
+}
+
+.mainJumbo {
+    padding: 3vh;
+    margin-top: 7vh;
+    text-align-last: center;
+    background: #eeeeee;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    margin-top: 5vh;
+}
+.carousel-indicators li::marker {
+    content: "";
+}
