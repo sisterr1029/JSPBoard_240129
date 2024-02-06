@@ -21,7 +21,7 @@
 
     int bbssID = 0;
     if (request.getParameter("bbssID") != null) { // 만약 매개변수로 넘어온 bbssID라는 매개변수가 존재한다면
-      bbssID = Integer.parseInt(request.getParameter("bbssID")); // 아래 뷰 페이지 안에서 처리가 가능함.
+      bbssID = Integer.parseInt(request.getParameter("bbssID")); // 매개변수의 값을 int로 변환하여 bbssID에 저장됨. 그리고 이 view 서버측에서 사용할 수 있게되는 것임
     }
 
     if (bbssID == 0) {

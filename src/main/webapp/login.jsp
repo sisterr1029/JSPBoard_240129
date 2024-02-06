@@ -33,7 +33,7 @@
             <a class="nav-link active" aria-current="page" href="main.jsp">메인</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="bbs.jsp">게시판</a>
+            <a class="nav-link" href="bbss.jsp">게시판</a>
           </li>
 
         </ul>

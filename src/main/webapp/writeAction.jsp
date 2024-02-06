@@ -5,7 +5,7 @@
 <%@ page import="user.UserDAO" %><%--자바스크립트를 문장을 작성하기위해--%>
 <%--<% request.setCharacterEncoding("UTR-8"); %> &lt;%&ndash;건너오는 데이터들을 UTF-8으로 받을 수 있게 &ndash;%&gt;--%>
 <jsp:useBean id="bbss" class="bbss.Bbss" /> <%--scope는 현재의 페이지 안에서만 자바빈즈가 사용될 수 있게함. 하나의 게시물 정보를 담아줄 수 있게 만들어줌. --%>
-<jsp:setProperty name="bbss" property="bbssTitle"/> <%--로그인 페이지에서 연계해준 userID를 그대로 받아서 한명의 한 명의 사용자의 userID에 넣어주는 것임.--%>
+<jsp:setProperty name="bbss" property="bbssTitle"/>
 <jsp:setProperty name="bbss" property="bbssContent"/>
 <!DOCTYPE html>
 <html>
